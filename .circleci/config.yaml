@@ -1,0 +1,8 @@
+version: 2
+jobs:
+   build:
+     docker:
+       - image: circleci/<java>:<0.0.0.1S SNAPSHOT>
+     steps:
+       - checkout
+       - run: echo "checked out code from ping"
